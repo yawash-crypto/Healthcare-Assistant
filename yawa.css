@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:rgb(101, 71, 71);
+}
+nav{
+    background-color:rgb(130, 238, 233);
+    color:rgb(206, 173, 173);
+    display: flex;
+    justify-content: space-between;
+    padding:20px 50px;
+    top: 0;
+}
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:25px
+}
+nav ul li{
+    margin-left: 30px;
+}
+nav ul li a:hover{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 4s;
+}
+nav ul li a:hover{
+    color: rgb(41, 6, 129);;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px;
+    background-color:rgba(223, 23, 9, 0.781);
+}
+.left h1{
+    font-size: 60px;
+    color:hotpink;
+  
+}
+.left p{
+    margin-top: 20px;
+    font-size: 20px;
+    color:rgb(23, 11, 11);
+
+}
+.hero h1{
+    font-size:40px;
+    color:black;
+
+}
+.right {
+    margin-left:100px;
+    height:200px;
+    width:400px;
+
+}
+.hero p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.hero button{
+    margin-top: 25px;
+    padding: 15px 30px;
+    background-color:blue;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.35s ease;
+
+}
+.hero button:hover{
+    background-color: green;
+    transform: translateY(-3px);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px;
+    box-shadow:0 0 10px ;
+
+}
+.card{
+    background-color:pink;
+    padding: 25px;
+    border-radius:10px;
+    gap:20px;
+    box-shadow: 0 0 10px darkolivegreen;
+}
+.health-card{
+    background-color: pink;
+    width: 350px;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 25px;
+    box-shadow:0 0 10px ;
+}
+.chatbot input{
+    width: 70%;
+    padding: 10px;
+    border:none;
+    outline: none;
+    border-radius: 15px;
+    background-color: yellow;
+
+}
+.chatbot button{
+    padding :10px 20px;
+    background-color:green;
+    color: white;
+    border:none;
+    border-radius:10px;
+}
+.chatbot{
+    height: 250px;
+    border:1px solid lightgray;
+    padding:30px;
+    margin-bottom: 10px;
+
+}
+.bot{
+    background-color:blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius:8px;
+}
+footer{
+    background-color:burlywood;
+    columns: white;
+    text-align: center;
+    padding: 50px;
+}
